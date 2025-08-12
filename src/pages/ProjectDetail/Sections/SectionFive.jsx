@@ -127,7 +127,7 @@ const SectionFive = () => {
                             key={idx}
                             className="w-full flex gap-[2.2vw] mb-[2vw]"
                         >
-                            <div className="w-[27vw] bg-amber-900">
+                            <div className="w-[27vw]">
                                 <p className="mb-[1.2rem]">
                                     {step.text}
                                 </p>
@@ -136,7 +136,7 @@ const SectionFive = () => {
                                 <img
                                     src={step.image.src}
                                     alt={step.image.alt}
-                                    className="mb-[0.6vw] bg-amber-300"
+                                    className="mb-[0.6vw]"
                                 />
                                 <p className="text-[0.9vw]">
                                     {step.image.caption}
